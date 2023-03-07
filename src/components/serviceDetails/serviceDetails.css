@@ -1,0 +1,39 @@
+
+
+
+.my-component {
+    margin-top: 2rem;
+    position: relative;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 3fr 1fr ;
+  }
+  
+  .name {
+    position: absolute;
+    top: 80px;
+    left: -420px;
+
+    margin: 0;
+    padding: 0;
+    font-size: 3rem;
+    width: 100%;
+    z-index: 0;
+  }
+  
+  .image {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+    position: relative;
+    z-index: 1;
+    display: grid;
+    grid-column: 1/2;
+  }
+
+  .details{
+    padding: 4rem;
+    display: grid;
+    grid-column: 2/2;
+  }

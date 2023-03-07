@@ -1,0 +1,188 @@
+.main{
+    color :#181458;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 10rem 3fr 5fr 10rem;
+    margin-bottom: 3rem;
+
+}
+
+
+.info{
+   
+    display: grid;
+
+    grid-column: 2/3;
+    justify-content: start;
+    align-items: center;
+}
+
+.booking{
+    display: flex;
+    position:  relative;
+    top:50px;
+    height: 20vh;
+    width: 90%;
+    grid-column: 2/4;
+ 
+}
+
+
+
+.cards{
+    color :#181458;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 10rem 10fr 10rem;
+    
+
+}
+.advantages{
+
+   
+    display: flex;
+    flex-direction: column;
+    position:  relative;
+    align-items: center;
+    top:50px;
+  
+    width: 90%;
+    grid-column: 2/3;
+ 
+
+}
+.card-list {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 5rem;
+  }
+  
+  .card {
+    width: calc(25% - 43px); /* 4 cards per row with 10px space between */
+    margin-left: 2rem;
+    background-color: #f3f1ff;
+  
+  }
+
+
+ .description{
+    color :#181458;
+    background-color:#f3f1ff ;
+    
+    display: grid;
+    grid-template-columns: 10rem 10fr 10rem;
+    margin-top: 10rem;
+    
+}
+.desc__image{
+
+    display: grid;
+    grid-column: 2/3;
+
+
+}
+
+.history__data{
+
+    color :#181458;
+    margin-left: 5rem;
+    display: grid;
+    grid-template-columns: 10rem 10fr 10rem;
+  
+}
+.history__data__cards{
+    
+
+    display: grid;
+    grid-column: 2/3;
+
+}
+
+.car__details {
+
+    color :#181458;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 10rem 10fr 10rem;
+
+}
+
+.car__details__arrangement{
+    
+    margin-top: 3rem;
+    position:  relative;
+    text-align: center;
+    grid-column: 2/3;
+  
+}
+
+
+
+.review{
+    color :#181458;
+    background-color:#ffffff ;
+    margin-top: 4rem;
+    display: grid;
+    grid-template-columns: 10rem 1fr 1fr 1fr 1fr 10rem;
+    margin-bottom: 8rem;    
+
+}
+
+
+
+.review__grid2{
+    
+    display: grid;
+
+    grid-column: 2/2;
+}
+
+.review__grid3{
+    display: grid;
+    grid-column: 3/3;
+    position: relative;
+    top:12rem;
+    right:7rem
+ 
+}
+
+.review__grid4{
+    display: grid;
+    grid-column: 4/4;
+    position: relative;
+    top:2rem;
+    right:5rem;
+ 
+}
+
+.review__grid5{
+    display: grid;
+    grid-column: 5/5;
+    position: relative;
+    top:5rem;
+    left:0rem;
+ 
+}
+
+
+
+.get__started{
+    color :#181458;
+    background-color:#b3c4ff ;
+    margin-top: 4rem;
+    display: grid;
+    grid-template-columns: 10rem 1fr 10rem;
+    margin-bottom: 8rem;   
+    height: 30vh;
+}
+
+.get__start{
+
+    display: grid;
+
+    grid-column: 2/3;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}

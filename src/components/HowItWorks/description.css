@@ -1,0 +1,28 @@
+.desc{
+    display: grid;
+    grid-template-columns:5fr 5fr;
+
+}
+
+.grid1{
+    display: grid;
+    grid-column: 1/2;
+    
+}
+.centered-images {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5rem 0rem; /* Add 20px of padding to all four sides */
+     
+  }
+
+  .grid2{
+
+    margin-left: 50px;
+    
+}
+
+  
+  

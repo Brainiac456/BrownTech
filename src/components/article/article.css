@@ -1,0 +1,36 @@
+.my-article {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    height: 400px;
+
+    border-radius: 5px;
+   
+    overflow: hidden; /* hide overflow of image */
+    align-items: start;
+    text-align: start;
+    margin-bottom: 8rem;
+  }
+  
+  .my-article-image {
+    width: 70%;
+    height: 250px; /* set height of image */
+    border-radius: 8px;
+    object-fit: cover;
+   
+  }
+  
+  .my-article-text {
+    padding: 10px;
+  }
+  
+  .my-article-name {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .my-article-description {
+    font-size: 16px;
+    width: 21rem;
+    color: #666;
+  }
