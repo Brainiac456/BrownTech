@@ -85,7 +85,6 @@
 .history__data{
 
     color :#181458;
-    margin-left: 5rem;
     display: grid;
     grid-template-columns: 10rem 10fr 10rem;
   
