@@ -1,5 +1,6 @@
 import React from "react";
 import './article.css'
+import {AiOutlineArrowRight} from 'react-icons/ai'
 const MyComponent = ({ imageSrc, name, description }) => {
     return (
         <div className="my-article">
@@ -13,6 +14,7 @@ const MyComponent = ({ imageSrc, name, description }) => {
             <h2 className="my-article-name">{name}</h2>
             <p className="my-article-description">{description}</p>
           </div>
+          <span>view more <AiOutlineArrowRight style={{fontSize:'2 rem'}}/></span>
         </div>
       );
 };
